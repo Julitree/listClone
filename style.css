@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.wrap{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50vw 50vw;
+}
+.left{
+    height: 100vh;
+    width: 50vw;
+}
+ol{
+    display: block;
+    padding: 30%;
+}
+
+.container{
+    background-color:rgb(223, 242, 247);
+    padding: 5%;
+    height: 100vh;
+    width: 50vw;
+}
+
+.especial{
+    font-family: 'Satisfy', cursive; 
+}
